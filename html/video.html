@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Video | Stella Official Website</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="../images/favicon.ico"/>
+
+    <!-- Google font -->
+    <!-- Headings Montserrat / Body Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"/>
+
+    <!-- UIkit css -->
+    <link rel="stylesheet" href="../css/uikit.min.css"/>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+<body>
+    <header id="stickyHeader">
+        <!-- desktop -->
+        <nav class="uk-navbar-container header-menu">
+            <div class="uk-container">
+                <div uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav">
+                            <li class="header-menu-item">
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a href="biography.html">Biography</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a href="discography.html">Discography</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a href="video.html">Video</a>
+                            </li>                   
+                        </ul>
+                    </div><!-- /.uk-navbar-left -->
+                    <div class="uk-navbar-center">
+                        <ul class="uk-navbar-nav">
+                            <li>
+                                <h1>
+                                    <a class="uk-logo" href="../index.html">
+                                        <img 
+                                            class="logo" 
+                                            src="../images/stella_logo.png" 
+                                            alt="Stella logo"/>
+                                    </a>
+                                </h1>
+                            </li>
+                        </ul>
+                    </div><!-- /.uk-navbar-center -->
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fa-brands fa-instagram header-menu-social-icon"></i>
+                                    <span class="visually-hidden">Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/">
+                                    <i class="fa-brands fa-youtube header-menu-social-icon"></i>
+                                    <span class="visually-hidden">YouTube</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/">
+                                    <i class="fa-brands fa-apple header-menu-social-icon"></i>
+                                    <span class="visually-hidden">Apple Music</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://open.spotify.com/">
+                                    <i class="fa-brands fa-spotify header-menu-social-icon"></i>
+                                    <span class="visually-hidden">Spotify</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.uk-navbar-right -->
+                </div><!-- uk-navbar -->
+            </div><!-- /.uk-container -->
+        </nav>
+        <!-- End of desktop -->
+
+        <!-- Tablet & Mobile /Hamburger Menu -->
+        <div class="uk-container hamburger-menu">
+            <div class="hamburger-menu-inner">
+                <a class="uk-logo" href="../index.html">
+                    <img 
+                        class="logo" 
+                        src="../images/stella_logo.png" 
+                        alt="Stella logo"/>
+                </a>
+                <button 
+                    class="uk-button-default"
+                    type="button" 
+                    uk-toggle="target: #offcanvas-nav-primary"
+                    aria-label="Open the menu">
+                    <span uk-icon="icon: menu;"></span>
+                </button>
+            </div>
+            <div 
+                id="offcanvas-nav-primary" 
+                uk-offcanvas="overlay: true; flip: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <button 
+                        class="uk-offcanvas-close" 
+                        type="button"
+                        aria-label="Close the menu"
+                        uk-close>
+                    </button>
+                    <ul class="uk-nav uk-nav-primary uk-nav-left uk-margin-auto-vertical">
+                        <li class="uk-active">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="biography.html">Biography</a>
+                        </li>
+                        <li>
+                            <a href="discography.html">Discography</a>
+                        </li>
+                        <li>
+                            <a href="video.html">Video</a>
+                        </li>                   
+                        <li class="uk-nav-divider">
+                        </li>
+                    </ul>
+                    <div class=" hamburger-menu-social-icons">
+                        <ul class="uk-navbar-nav">
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fa-brands fa-instagram hamburger-menu-social-icon"></i>
+                                    <span class="visually-hidden">Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/">
+                                    <i class="fa-brands fa-youtube hamburger-menu-social-icon"></i>
+                                    <span class="visually-hidden">YouTube</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/">
+                                    <i class="fa-brands fa-apple hamburger-menu-social-icon"></i>
+                                    <span class="visually-hidden">Apple Music</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://open.spotify.com/">
+                                    <i class="fa-brands fa-spotify hamburger-menu-social-icon"></i>
+                                    <span class="visually-hidden">Spotify</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa-brands fa-facebook-f hamburger-menu-social-icon"></i>
+                                    <span class="visually-hidden">Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/">
+                                    <i class="fa-brands fa-square-x-twitter hamburger-menu-social-icon"></i>
+                                    <span class="visually-hidden">X (Former Twitter)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- /.uk-offcanvas-bar -->
+            </div>
+        </div><!-- /.uk-container /.hamburger-menu -->
+        <!-- End of Tablet & Mobile -->
+    </header>
+
+    <div id="toTop" class="totop">
+        <a href="#" uk-totop uk-scroll>
+            <span class="visually-hidden">Scroll to Top</span>
+        </a>
+    </div>
+
+    <section class="video">
+        <div class="container">
+            <h2
+                uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+                Video
+            </h2>
+            <div class="video-item">
+                <p class="video_title">Stella - Dream (Official Video)</p>
+                <video class="video_top" controls="controls" muted="muted">
+                    <source src="../video/stella_01.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video-item">
+                <p class="video_title">Stella - Sunshine (Official Video)</p>
+                <video class="video_top" controls="controls" muted="muted">
+                    <source src="../video/stella_02.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video-item">
+                <p class="video_title">Stella - Moonlight (Official Video)</p>
+                <video class="video_top" controls="controls" muted="muted">
+                    <source src="../video/stella_03.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video-item">
+                <p class="video_title">Stella - Autumn Breeze (Official Video)</p>
+                <video class="video_top" controls="controls" muted="muted">
+                    <source src="../video/stella_04.mp4" type="video/mp4"/>
+                </video>
+            </div>
+        </div><!-- container -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Stella All Rights Reserved.</p>
+        </div><!-- container -->
+    </footer>
+    <!-- jQuery -->
+    <script src="../jquery/jquery-3.7.0.js"></script>
+    <!-- UIkit JS -->
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/355ea4f50f.js" crossorigin="anonymous"></script>
+    <!-- my JS -->
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

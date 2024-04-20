@@ -1,7 +1,7 @@
 # Project Summary
-This is a static website for a fictional music band. 
+This is a static website for a fictional music band. This website meets WCAG2.1 Level AA.
 
-**💻 Technologies used:**
+**Technologies used:**
 <br/>
 HTML, CSS, UIKit, JavaScript
 <br/>
@@ -9,9 +9,8 @@ HTML, CSS, UIKit, JavaScript
 
 **This website includes the following majour components:**
 - Sticky header
-- Scroll to top button: 
+- Scroll to top button
 - Responsive history timeline
-- Interactive discography: Each title appears on hover each CD cover.
 
 * All the pictures are loyalty-free sourced from pexels, taken by a photographer, Anna Shvets. [https://www.pexels.com/@shvetsa/]
 
